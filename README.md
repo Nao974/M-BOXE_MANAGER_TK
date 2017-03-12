@@ -5,7 +5,7 @@ To manage your M-BOXE Servo-motor with GUI from a Rapsberry Pi by I2C
 
 *Gérer votre M-BOXE Servo-moteur par interface graphique à partir d'une Rapsberry Pi par I2C*
 
-<img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_TK.png" title="Screenshoot Menu" alt="ScrenShoot Menu">
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK.png" title="Screenshoot Menu" alt="ScrenShoot Menu">
 
 ## First of all / Avant tout
 
@@ -82,10 +82,10 @@ Go to folder, then type `python3 M-BOXE_MANAGER_TK.py`, or lunch with Python IDE
 *Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_TK.py`, ou lancez le à partir de l'IDE Python.  
 
 * Step 1: Scan du bus I2C et connexion à une M-BOXE
-Lancer la recherche: `Mboxe-> To Scan`  
+Lancer la recherche: <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Scan.png" title="Mboxe-> To Scan" alt="Mboxe-> To Scan">
 La liste des M-BOXE trouvées se trouve dans le menu `Mboxe`  
 Il vous suffit d'en selectionner une pour vous y connecter.  
-<img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_TK.png" title="Screenshoot Menu" alt="ScrenShoot Menu">
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK.png" title="Screenshoot Menu" alt="ScrenShoot Menu">
 
 ## History / Historique
 
