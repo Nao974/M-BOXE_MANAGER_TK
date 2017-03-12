@@ -103,7 +103,7 @@ Allows the Manager's current configuration to be lowered to the M-BOXE's RAM and
 ###Frame Advanced  
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Advanced.png" title="Frame Advanced" alt="Frame Advanced">  
-Allows the adjustment of the parameters described in the document[Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
+Allows the adjustment of the parameters described in the document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
 
 
 ###Frame Position
@@ -123,7 +123,7 @@ Allows the adjustment of the parameters described in the document[Parameter_M-BO
 ###Frame Data
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Data.png" title="Frame Data" alt="Frame Data">  
-To view the various data recorded by the M-BOXE, see document[Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
+To view the various data recorded by the M-BOXE, see document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
 * This data is updated every time the M-Boxes are reloaded by the `Get from Memeory` button on the Main frame
 * The check mark `Real Time` allows a loop playback whose delay and set by the adjoining ruler.
 
