@@ -73,7 +73,6 @@ Once your M-BOXE is set up and connected to the I2C bus, type `i2cdetect -y 1` (
 ## Usage
 
 Go to folder, then type `python3 M-BOXE_MANAGER_TK.py`, or lunch with Python IDE  
-  <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_TK_go.png" title="Go" alt="Go">  
   
   **Writing in progress**  
 
@@ -86,8 +85,7 @@ Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_TK.py`, ou lancez le à p
 
 Lancer la recherche:  
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Scan.png" title="Mboxe/To Scan" alt="Mboxe/To Scan">  
-La liste des M-BOXE trouvées se trouve dans le menu `Mboxe`, il vous suffit d'en selectionner une pour vous y connecter:  
-<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK.png" title="Screenshoot Menu" alt="ScrenShoot Menu">  
+La liste des M-BOXE trouvées se trouve dans le menu `Mboxe`, il vous suffit d'en selectionner une.  
 
 
 ###Cadre Main Config  
@@ -98,7 +96,7 @@ Permet de visualiser l'état de la M-BOXE, la version du firmware et indiquer de
 * Get from Memeory  
 Permet de recharger la configuration de la M-BOXE selectionnée dans le Manager.  
 
-* Set in Memeory  
+* Set in Memory  
 Permet de faire redescendre la configuration actuelle du Manager vers la mémoire vive de la M-BOXE.  
  
 * Reload from EEPROM  
@@ -111,8 +109,35 @@ Permet de faire redescendre la configuration actuelle du Manager vers la mémoir
 ###Cadre Advanced  
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Advanced.png" title="Frame Advanced" alt="Frame Advanced">  
-Permet le paramétrage des réglages décrit dans le document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
+Permet le réglage des paraméètres décrits dans le document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
 
+
+###Cadre Position
+
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Position.png" title="Frame Position" alt="Frame Position">  
+* Permet de paramétrer les bornes avant et arriere  
+* De recuperer la position actuelle avec le bouton `Get`  
+* D'envoyer la consigne de position avec le bouton `Set`
+
+
+###Cadre Speed
+
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Speed.png" title="Frame Speed" alt="Frame Speed">  
+*Prochainement*
+
+
+###Cadre Data
+
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Data.png" title="Frame Data" alt="Frame Data">  
+Permet de visualiser les différentes données remontées par la M-BOXE, voir le document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
+* Ces données sont mises à jour à chaque rechargement des paramétres de la M-Boxe par le bouton `Get from Memeory` du cadre Main  
+* la coche `Real Time` permet une lecture en boucle dont le delai et paramétré par la reglette voisine.  
+
+
+###Cadre Log
+
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Log.png" title="Frame Log" alt="Frame Log">  
+Permet une lecture détaillée des opérations effectuées.   
 
 
 ## History / Historique
