@@ -3,7 +3,7 @@
 To manage your M-BOXE Servo-motor with graphic interface from a Rapsberry Pi by I2C  
 
 
-*Gérer votre M-BOXE Servo-moteur par interface grpahique à partir d'une Rapsberry Pi par I2C*
+*Gérer votre M-BOXE Servo-moteur par interface graphique à partir d'une Rapsberry Pi par I2C*
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_TK.png" title="Screenshoot Menu" alt="ScrenShoot Menu">
 
@@ -36,10 +36,9 @@ This program allows to parameterize an M-Boxe whose construction is detailed in 
 *`M-BOXE_MANAGER_TK.py` Programme principal permettant le paramétrage de votre M-BOXE*  
 
 
-*`frame_*.py` Description des cadres de l'application*  
+*`frame_*.py` Description des cadres de l'application*    
 *`interface.py` Création de l'interface avec appels des différents cadres et du menu*  
 *`lang_*.py` Fichiers des langues  
-
 
 
 ## Installation
@@ -82,7 +81,7 @@ Go to folder, then type `python3 M-BOXE_MANAGER_TK.py`, or lunch with Python IDE
 
 *Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_TK.py`, ou lancez le à partir de l'IDE Python.
 
-** Rédaction en cours**  
+**Rédaction en cours**  
 
 
 ## History / Historique
