@@ -23,9 +23,9 @@ This program allows to parameterize an M-Boxe whose construction is detailed in 
 `M-BOXE_MANAGER_TK.py` Main program for setting up your M-BOXE  
 
 
-`frame_*.py` Description of application frameworks  
+`frame__.py` Description of application frameworks  
 `interface.py` Creating the interface with calls from different frames and the menu    
-`lang_*.py` Language files  
+`lang__.py` Language files  
 
 --
 
@@ -36,9 +36,9 @@ This program allows to parameterize an M-Boxe whose construction is detailed in 
 *`M-BOXE_MANAGER_TK.py` Programme principal permettant le paramétrage de votre M-BOXE*  
 
 
-*`frame_\*.py` Description des cadres de l'application*    
+*`frame__.py` Description des cadres de l'application*    
 *`interface.py` Création de l'interface avec appels des différents cadres et du menu*  
-*`lang_\*.py` Fichiers des langues*  
+*`lang__.py` Fichiers des langues*  
 
 
 ## Installation
