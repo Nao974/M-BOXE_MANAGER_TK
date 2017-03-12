@@ -79,15 +79,32 @@ Go to folder, then type `python3 M-BOXE_MANAGER_TK.py`, or lunch with Python IDE
 
 --
 
-*Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_TK.py`, ou lancez le à partir de l'IDE Python.  
+Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_TK.py`, ou lancez le à partir de l'IDE Python.  
 
-* Step 1: Scan du bus I2C et connexion à une M-BOXE
+
+* Scan du bus I2C et connexion à une M-BOXE  
+
 Lancer la recherche:  
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Scan.png" title="Mboxe/To Scan" alt="Mboxe/To Scan">  
-La liste des M-BOXE trouvées se trouve dans le menu `Mboxe`  
-Il vous suffit d'en selectionner une pour vous y connecter:    
+La liste des M-BOXE trouvées se trouve dans le menu `Mboxe`, il vous suffit d'en selectionner une pour vous y connecter:  
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK.png" title="Screenshoot Menu" alt="ScrenShoot Menu">  
 
+
+* Cadre Main Config  
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_frame_Main.png" title="Frame Main" alt="Frame Main">  
+Permet de visualiser l'état de la M-BOXE, la version du firmware et indiquer des informations sur la configuration.  
+
+  * Get from Memeory  
+Permet de recharger la configuration de la M-BOXE selectionnée dans le Manager.  
+
+  * Set in Memeory  
+ Permet de faire redescendre la configuration actuelle du Manager vers la mémoire vive de la M-BOXE.  
+ 
+  * Reload from EEPROM  
+ Permet de recharger dans la mémoire vive de la M-BOXE, la configuration sauvegardée dans l'EEPROM, puis la faire remonter dans le Manager.  
+ 
+  * Write in EEPROM  
+ Permet de faire redescendre la configuration actuelle du Manager vers la mémoire vive de la M-BOXE, puis la sauvegarder dans l'EEPROM.   
 ## History / Historique
 
 - [History] (https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/history.md)
