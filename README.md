@@ -72,7 +72,7 @@ Once your M-BOXE is set up and connected to the I2C bus, type `i2cdetect -y 1` (
 
 ## Usage
 
-Go to folder, then type `python3 M-BOXE_MANAGER_TK.py`, or lunch with Python IDE
+Go to folder, then type `python3 M-BOXE_MANAGER_TK.py`, or lunch with Python IDE  
   <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_TK_go.png" title="Go" alt="Go">  
   
   **Writing in progress**  
