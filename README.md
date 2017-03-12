@@ -38,7 +38,7 @@ This program allows to parameterize an M-Boxe whose construction is detailed in 
 
 *`frame_*.py` Description des cadres de l'application*    
 *`interface.py` Création de l'interface avec appels des différents cadres et du menu*  
-*`lang_*.py` Fichiers des langues  
+*`lang_*.py` Fichiers des langues*  
 
 
 ## Installation
