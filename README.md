@@ -83,7 +83,7 @@ Go to folder, then type `python3 M-BOXE_MANAGER_TK.py`, or lunch with Python IDE
 
 * Step 1: Scan du bus I2C et connexion à une M-BOXE
 Lancer la recherche:  
-<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Scan.png" title="Mboxe-> To Scan" alt="Mboxe-> To Scan">  
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Scan.png" title="Mboxe/To Scan" alt="Mboxe/To Scan">  
 La liste des M-BOXE trouvées se trouve dans le menu `Mboxe`  
 Il vous suffit d'en selectionner une pour vous y connecter:    
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK.png" title="Screenshoot Menu" alt="ScrenShoot Menu">  
