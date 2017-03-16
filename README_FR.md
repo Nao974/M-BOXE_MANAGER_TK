@@ -102,7 +102,9 @@ Permet le réglage des paramètres décrits dans le document [Parameter_M-BOXE.p
 ### Cadre Data
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Data.png" title="Frame Data" alt="Frame Data">  
-Permet de visualiser les différentes données remontées par la M-BOXE, voir le document [test](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
+Permet de visualiser les différentes données remontées par la M-BOXE, voir le document [English Version](https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/README.md)  
+
+[test](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
 
 * Ces données sont mises à jour à chaque rechargement des paramétres de la M-Boxe par le bouton `Get from Memeory` du cadre Main  
 * la coche `Real Time` permet une lecture en boucle dont le delai et paramétré par la reglette voisine.  
@@ -116,6 +118,6 @@ Permet une lecture détaillée des opérations effectuées.
 
 ## Historique
 
-- [History](https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/history.md)
+- [Historique](https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/history.md)
 
 
