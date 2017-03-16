@@ -1,17 +1,17 @@
 # M-BOXE_MANAGER_TK
 [Version Française](https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/README_FR.md)  
 
-To manage your M-BOXE Servo-motor with GUI from a Rapsberry Pi by I2C  
+To manage your M-BOXE Servo-motor with GUI from a Rapsberry Pi by I2C.  
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK.png" title="Screenshoot Menu" alt="ScrenShoot Menu">
 
 ## First of all
 
-This program is an implementation of the `mboxe.py` library, allowing to parameterize and order an M-Boxe whose construction is detailed in the repository [M-BOXE] (https://github.com/Nao974/M-BOXE/blob/master/README.md)  
+This program is an implementation of the `mboxe.py` library, allowing to parameterize and order an M-Boxe whose construction is detailed in the repository [M-BOXE](https://github.com/Nao974/M-BOXE/blob/master/README.md).  
 
 ## Contents
 
-`Ah_I2C.py` Libraries for I2C protocol from the ADAFRUIT_I2C library
+`Ah_I2C.py` Libraries for I2C protocol from the ADAFRUIT_I2C library  
 `M-BOXE.py` Class defining the M-BOXE object with parameter and function based on the Ah-I2C.py library  
 
 
@@ -74,7 +74,7 @@ Allows the Manager's current configuration to be lowered to the M-BOXE's RAM and
 ### Frame Advanced  
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Advanced.png" title="Frame Advanced" alt="Frame Advanced">  
-Allows the adjustment of the parameters described in the document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
+Allows the adjustment of the parameters described in the document: [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf) .  
 
 
 ### Frame Position
@@ -94,7 +94,7 @@ Allows the adjustment of the parameters described in the document [Parameter_M-B
 ### Frame Data
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Data.png" title="Frame Data" alt="Frame Data">  
-To view the various data recorded by the M-BOXE, see document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
+To view the various data recorded by the M-BOXE, see document: [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf) .  
 * This data is updated every time the M-Boxes are reloaded by the `Get from Memeory` button on the Main frame
 * The check mark `Real Time` allows a loop playback whose delay and set by the adjoining ruler.
 
