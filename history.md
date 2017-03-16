@@ -2,7 +2,7 @@
 in [french](https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/history.md#historique)  
 
 
-###Ver 1.0: ***Published on 2017/03/01***
+### Ver 1.0: ***Published on 2017/03/01***
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Switching from I2C to Python 3
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Creating the Mboxe class
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Creating the GUI
@@ -17,7 +17,7 @@ in [french](https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/history.md#h
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Adding About
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Added multi language support
 
-###Ver 1.4 (For evolution Firmware)
+### Ver 1.4 (For evolution Firmware)
 * Integration of protection functions
   * Defined bounds
   * Up of the MC card
@@ -27,7 +27,7 @@ in [french](https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/history.md#h
 
 # Historique
 
-###Ver 1.0 ***Publiée la 01/03/2017***
+### Ver 1.0 ***Publiée la 01/03/2017***
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Passage de la librairie I2C en Python 3
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Création de la classe Mboxe
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Création de l'interface graphique
@@ -42,7 +42,7 @@ in [french](https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/history.md#h
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ajout du A propos
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ajout du support Multi langue
 
-###Ver 1.4 (suivant évolution Firmware)
+### Ver 1.4 (suivant évolution Firmware)
 * Intégration des fonctions de protection
   * Suivant bornes définies
   * Suivant remontée de la carte MC
