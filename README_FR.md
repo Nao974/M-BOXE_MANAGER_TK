@@ -24,13 +24,13 @@ Ce programme est une mise en oeuvre de la librairie `mboxe.py`, permettant de pa
 
 ## Installation
 
-####Step 1: Installation de Python3
+#### Step 1: Installation de Python3
 
 Python 3.4 est normalement déja installé sur Raspbian si vous utilisé `python3`au lieu de `python`, si ce n'est pas le cas `sudo apt-get install python3`.  
 TKinter fait partie des librairies standards de Python.Il n'est pas besoin de l'installer.
 
 
-####Step 2: Activation I2C
+#### Step 2: Activation I2C
 
 * Mettre en commentaire la ligne `blacklist i2c-bcm2708` dans le fichier `/etc/modprobe.d/raspi-blacklist.conf`
 * Installez la suite des outils de gestion I2C `apt-get install i2c-tools`
@@ -45,21 +45,21 @@ Dans l'exemple ci dessus, la M-BOXE est configurée à l'adresse 0x14.
 
 Aller dans le dossier, tapez `python3 M-BOXE_MANAGER_TK.py`, ou lancer le à partir de votre IDE.  
 
-###Scanning the I2C bus and connecting to an M-BOXE
+### Scanning the I2C bus and connecting to an M-BOXE
 
 Start a reseach:  
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Scan.png" title="Mboxe/To Scan" alt="Mboxe/To Scan">  
 Aller dans le dossier, puis tapez `python3 M-BOXE_MANAGER_TK.py`, ou lancez le à partir de l'IDE Python.  
 
 
-###Scan du bus I2C et connexion à une M-BOXE  
+### Scan du bus I2C et connexion à une M-BOXE  
 
 Lancer la recherche:  
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Scan.png" title="Mboxe/To Scan" alt="Mboxe/To Scan">  
 La liste des M-BOXE apparait dans le menu `Mboxe`, il vous suffit d'en selectionner une.  
 
 
-###Cadre Main Config  
+### Cadre Main Config  
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Main.png" title="Frame Main" alt="Frame Main">  
 Permet de visualiser l'état de la M-BOXE, la version du firmware et indiquer des informations sur la configuration.  
@@ -77,13 +77,13 @@ Permet de recharger dans la mémoire vive de la M-BOXE, la configuration sauvega
 Permet de faire redescendre la configuration actuelle du Manager vers la mémoire vive de la M-BOXE, puis la sauvegarder dans l'EEPROM   
 
 
-###Cadre Advanced  
+### Cadre Advanced  
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Advanced.png" title="Frame Advanced" alt="Frame Advanced">  
 Permet le réglage des paramètres décrits dans le document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
 
 
-###Cadre Position
+### Cadre Position
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Position.png" title="Frame Position" alt="Frame Position">  
 * Permet de paramétrer les bornes avant et arriere  
@@ -91,13 +91,13 @@ Permet le réglage des paramètres décrits dans le document [Parameter_M-BOXE.p
 * D'envoyer la consigne de position avec le bouton `Set`
 
 
-###Cadre Speed
+### Cadre Speed
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Speed.png" title="Frame Speed" alt="Frame Speed">  
 *Prochainement*
 
 
-###Cadre Data
+### Cadre Data
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Data.png" title="Frame Data" alt="Frame Data">  
 Permet de visualiser les différentes données remontées par la M-BOXE, voir le document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
@@ -105,7 +105,7 @@ Permet de visualiser les différentes données remontées par la M-BOXE, voir le
 * la coche `Real Time` permet une lecture en boucle dont le delai et paramétré par la reglette voisine.  
 
 
-###Cadre Log
+### Cadre Log
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Log.png" title="Frame Log" alt="Frame Log">  
 Permet une lecture détaillée des opérations effectuées.   
