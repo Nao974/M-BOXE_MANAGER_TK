@@ -56,19 +56,19 @@ The M-BOXE list appears in the `Mboxe` menu, just select one.
 ### Frame Main Config
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Main.png" title="Frame Main" alt="Frame Main">  
-Enables you to view the status of the M-BOXE, the firmware version and specify configuration information.
+Enables you to view the status of the M-BOXE, the firmware version and specify configuration information.  
 
 * Get from Memeory
-Allows to reload the configuration of the M-BOXE selected in the Manager
+Allows to reload the configuration of the M-BOXE selected in the Manager  
 
 * Set in Memory
-Allows the manager to go back to the M-BOXE RAM
+Allows the manager to go back to the M-BOXE RAM  
  
 * Reload from EEPROM
-Allows you to reload the configuration saved in the EEPROM into the RAM memory of the M-BOXE and then upload it to the Manager
+Allows you to reload the configuration saved in the EEPROM into the RAM memory of the M-BOXE and then upload it to the Manager  
  
 * Write in EEPROM
-Allows the Manager's current configuration to be lowered to the M-BOXE's RAM and then saved in the EEPROM
+Allows the Manager's current configuration to be lowered to the M-BOXE's RAM and then saved in the EEPROM  
 
 
 ### Frame Advanced  
@@ -80,23 +80,26 @@ Allows the adjustment of the parameters described in the document: [Parameter_M-
 ### Frame Position
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Position.png" title="Frame Position" alt="Frame Position">  
-* Allows you to set the front and rear terminals
-* To retrieve the current position with the `Get` button
-* Send the position setpoint with the `Set` button
+
+* Allows you to set the front and rear terminals  
+* To retrieve the current position with the `Get` button  
+* Send the position setpoint with the `Set` button  
 
 
 ### Frame Speed
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Speed.png" title="Frame Speed" alt="Frame Speed">  
-*Coming Soon*
+
+*Coming Soon*  
 
 
 ### Frame Data
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Data.png" title="Frame Data" alt="Frame Data">  
-To view the various data recorded by the M-BOXE, see document: [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf) .  
-* This data is updated every time the M-Boxes are reloaded by the `Get from Memeory` button on the Main frame
-* The check mark `Real Time` allows a loop playback whose delay and set by the adjoining ruler.
+To view the various data recorded by the M-BOXE, see document: [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf) .   
+
+* This data is updated every time the M-Boxes are reloaded by the `Get from Memeory` button on the Main frame  
+* The check mark `Real Time` allows a loop playback whose delay and set by the adjoining ruler.  
 
 
 ### Frame Log
