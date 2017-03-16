@@ -7,7 +7,7 @@ Gérer votre M-BOXE Servo-moteur par interface graphique à partir d'une Rapsber
 
 ## Avant tout
 
-Ce programme est une mise en oeuvre de la librairie `mboxe.py`, permettant de paramétrer et commander une M-Boxe dont la construction est detaillée dans le dépot [M-BOXE] (https://github.com/Nao974/M-BOXE/blob/master/README.md)  
+Ce programme est une mise en oeuvre de la librairie `mboxe.py`, permettant de paramétrer et commander une M-Boxe dont la construction est detaillée dans le dépot [M-BOXE](https://github.com/Nao974/M-BOXE/blob/master/README.md)  
 
 ## Contenu
 
@@ -28,14 +28,14 @@ Ce programme est une mise en oeuvre de la librairie `mboxe.py`, permettant de pa
 #### Step 1: Installation de Python3
 
 Python 3.4 est normalement déja installé sur Raspbian si vous utilisé `python3`au lieu de `python`, si ce n'est pas le cas `sudo apt-get install python3`.  
-TKinter fait partie des librairies standards de Python.Il n'est pas besoin de l'installer.
+TKinter fait partie des librairies standards de Python.Il n'est pas besoin de l'installer.  
 
 
 #### Step 2: Activation I2C
 
-* Mettre en commentaire la ligne `blacklist i2c-bcm2708` dans le fichier `/etc/modprobe.d/raspi-blacklist.conf`
-* Installez la suite des outils de gestion I2C `apt-get install i2c-tools`
-* Redémarrer votre Raspberry.
+* Mettre en commentaire la ligne `blacklist i2c-bcm2708` dans le fichier `/etc/modprobe.d/raspi-blacklist.conf`  
+* Installez la suite des outils de gestion I2C `apt-get install i2c-tools`  
+* Redémarrer votre Raspberry.  
 
 Une fois votre M-BOXE paramétrée et connectée au bus I2C, tapez la commande `i2cdetect -y 1` (remplacer '1' par '0' par les versions 256Mo).  
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/i2cdetect.png" title="screenshoot_i2cdetect" alt="screenshoot_i2cdetect">  
@@ -87,6 +87,7 @@ Permet le réglage des paramètres décrits dans le document [Parameter_M-BOXE.p
 ### Cadre Position
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Position.png" title="Frame Position" alt="Frame Position">  
+
 * Permet de paramétrer les bornes avant et arriere  
 * De récuperer la position actuelle avec le bouton `Get`  
 * D'envoyer la consigne de position avec le bouton `Set`
@@ -102,6 +103,7 @@ Permet le réglage des paramètres décrits dans le document [Parameter_M-BOXE.p
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/screenshoot/Manager_TK_Frame_Data.png" title="Frame Data" alt="Frame Data">  
 Permet de visualiser les différentes données remontées par la M-BOXE, voir le document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf).  
+
 * Ces données sont mises à jour à chaque rechargement des paramétres de la M-Boxe par le bouton `Get from Memeory` du cadre Main  
 * la coche `Real Time` permet une lecture en boucle dont le delai et paramétré par la reglette voisine.  
 
