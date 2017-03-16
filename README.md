@@ -107,6 +107,6 @@ Allows a detailed reading of the operations carried out.
 
 ## History
 
-- [History] (https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/history.md)
+- [History](https://github.com/Nao974/M-BOXE_MANAGER_TK/blob/master/history.md)
 
 
